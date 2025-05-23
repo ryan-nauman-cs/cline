@@ -68,7 +68,7 @@ export const SETTINGS_TABS: SettingsTab[] = [
 		id: "api-config",
 		name: "API Configuration",
 		tooltipText: "API Configuration",
-		headerText: "API Configuration",
+		headerText: "API Configuration!",
 		icon: Webhook,
 	},
 	{

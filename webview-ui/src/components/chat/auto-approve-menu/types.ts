@@ -1,7 +1,8 @@
 import { AutoApprovalSettings } from "@shared/AutoApprovalSettings"
 
 export interface ActionMetadata {
-	id: keyof AutoApprovalSettings["actions"] | "enableNotifications" | "enableAll" | "enableAutoApprove"
+	// add to actions or extend?
+	id: keyof AutoApprovalSettings["actions"] | "enableNotifications" | "enableAll" | "enableAutoApprove" | "enableAutoRetry"
 	label: string
 	shortName: string
 	description: string
